@@ -1,11 +1,42 @@
-<div align="center">
+# RPM Generator - IIF SADEWA GOA (Vite + React + Tailwind)
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+This project wraps the provided single-file React component into a small Vite app with Tailwind CSS.
 
-  <h1>Built with AI Studio</h2>
+## Quick start
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+1. Install dependencies:
+```bash
+cd rpm-generator-app
+npm install
+# or: pnpm install / yarn
+```
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+2. Run dev server:
+```bash
+npm run dev
+```
 
-</div>
+3. Build:
+```bash
+npm run build
+```
+
+4. Preview production build:
+```bash
+npm run preview
+```
+
+## Files of interest
+- `src/App.jsx` — your uploaded component (already copied here).
+- `src/main.jsx` — app entry.
+- `src/index.css` — Tailwind base imports.
+- `tailwind.config.cjs`, `postcss.config.cjs` — Tailwind setup.
+
+## Deployment
+You can deploy to Vercel/Netlify by connecting the repository and using the `npm run build` output.
+
+If you want, I can:
+- Remove the hardcoded admin credentials and add environment-based auth.
+- Convert tokens to a simple backend (Express) for persistence.
+- Prepare a Git repository and push to GitHub for you.
+
